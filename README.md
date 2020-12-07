@@ -28,5 +28,5 @@ Following these steps to run app
 | Route | HTTP Verb	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
 | /api/invoice | `GET` | Empty | List all invoices. |
-| /api/invoice | `POST` | {'productName':'Keyboard', 'amount':50, 'billNo':'TR005544', 'userId': 1} | Create a new invoice. |
+| /api/invoice/getall | `POST` | {'productName':'Keyboard', 'amount':50, 'billNo':'TR005544', 'userId': 1} | Create a new invoice. |
 | /api/invoice?userId=1 | `GET` | Empty | Get invoices user by id. |
