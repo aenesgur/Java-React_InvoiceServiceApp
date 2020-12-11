@@ -29,4 +29,4 @@ Following these steps to run app
 | --- | --- | --- | --- |
 | /api/invoice/getall | `GET` | Empty | List all invoices. |
 | /api/invoice | `POST` | {'productName':'Keyboard', 'amount':50, 'billNo':'TR005544', 'userId': 1} | Create a new invoice. |
-| /api/invoice?userId=1 | `GET` | Empty | Get invoices user by id. |
+| /api/invoice?userId=1 | `GET` | Empty | Get invoices by user id. |
